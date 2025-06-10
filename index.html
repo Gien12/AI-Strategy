@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategie di Mercato AI: Valle Camonica & Franciacorta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 320px;
+            width: 100%;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#F2F9FB]">
+
+    <!-- 
+        Palette Name: Brilliant Blues
+        HEX Codes: #003F5C, #366E8A, #75A5B6, #B3D4E0, #F2F9FB
+    -->
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#003F5C] mb-4">Sbloccare il Potenziale dell'IA</h1>
+            <p class="text-lg text-[#1B263B]">Strategie di penetrazione del mercato per la consulenza AI in Valle Camonica e Franciacorta.</p>
+        </header>
+
+        <main class="space-y-12">
+
+            <section id="intro" class="text-center">
+                 <p class="max-w-3xl mx-auto text-[#415A77] mb-8">Una neo-nata impresa di consulenza AI si affaccia su due mercati adiacenti ma profondamente diversi. La Valle Camonica, un polo industriale che necessita di digitalizzazione fondamentale, e la Franciacorta, un'eccellenza vinicola globale pronta per l'innovazione AI avanzata. Questa è una guida per conquistare entrambi.</p>
+            </section>
+            
+            <hr class="border-t-2 border-[#B3D4E0]">
+
+            <section id="valle-camonica" class="py-8">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-[#003F5C] mb-2">Valle Camonica: Il Gigante Industriale da Risvegliare</h2>
+                    <p class="max-w-3xl mx-auto text-[#415A77]">Il potenziale maggiore risiede nell'affrontare il divario di digitalizzazione nei settori tradizionali come il manifatturiero e l'energia, sfruttando i cospicui finanziamenti regionali come catalizzatore.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-[#003F5C] text-center mb-4">Maturità Digitale delle Imprese Locali</h3>
+                        <p class="text-sm text-[#415A77] text-center mb-4">La maggior parte delle imprese locali non è soddisfatta del proprio livello di digitalizzazione, rappresentando un'enorme opportunità di mercato per servizi di trasformazione digitale e consulenza AI.</p>
+                        <div class="chart-container">
+                            <canvas id="digitalMaturityChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-[#003F5C] text-center mb-4">Settori Chiave per l'Applicazione AI</h3>
+                         <p class="text-sm text-[#415A77] text-center mb-4">L'AI può portare efficienza e innovazione nei pilastri economici della valle, ottimizzando processi consolidati e creando nuovo valore.</p>
+                        <div class="chart-container">
+                            <canvas id="keySectorsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                 <div class="mt-12 bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-[#003F5C] text-center mb-6">La Strategia Vincente per la Valle Camonica</h3>
+                    <div class="flex flex-col md:flex-row justify-around items-center text-center">
+                        <div class="flex flex-col items-center mb-6 md:mb-0">
+                            <div class="bg-[#B3D4E0] text-[#003F5C] rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">1</div>
+                            <p class="mt-3 font-semibold text-[#1B263B]">Audit Digitale</p>
+                            <p class="text-sm text-[#415A77] max-w-xs">Valutare la prontezza all'AI per identificare le opportunità a più alto impatto.</p>
+                        </div>
+                        <div class="text-3xl text-[#75A5B6] hidden md:block">&rarr;</div>
+                        <div class="text-3xl text-[#75A5B6] md:hidden mb-4">&darr;</div>
+                        <div class="flex flex-col items-center mb-6 md:mb-0">
+                            <div class="bg-[#75A5B6] text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">2</div>
+                            <p class="mt-3 font-semibold text-[#1B263B]">Accesso ai Fondi</p>
+                            <p class="text-sm text-[#415A77] max-w-xs">Agire da partner strategico per accedere ai bandi (PNRR, Regione) e superare le barriere finanziarie.</p>
+                        </div>
+                         <div class="text-3xl text-[#75A5B6] hidden md:block">&rarr;</div>
+                        <div class="text-3xl text-[#75A5B6] md:hidden mb-4">&darr;</div>
+                        <div class="flex flex-col items-center">
+                            <div class="bg-[#366E8A] text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">3</div>
+                            <p class="mt-3 font-semibold text-[#1B263B]">Progetto Pilota</p>
+                            <p class="text-sm text-[#415A77] max-w-xs">Implementare soluzioni mirate (es. manutenzione predittiva) per dimostrare un ROI tangibile.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="border-t-2 border-[#B3D4E0]">
+
+            <section id="franciacorta" class="py-8">
+                 <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-[#003F5C] mb-2">Franciacorta: L'Eccellenza del Vino Incontra l'Innovazione</h2>
+                    <p class="max-w-3xl mx-auto text-[#415A77]">Qui, il mercato richiede soluzioni AI specializzate e di alto valore per ottimizzare la produzione, proteggere il marchio e rafforzare la leadership globale nell'industria vinicola.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-xl font-bold text-[#003F5C] mb-4">Proiezioni di Mercato 2025</h3>
+                        <p class="text-sm text-[#415A77] mb-6">L'industria del Franciacorta è un'economia robusta con obiettivi di crescita ambiziosi, che creano una forte domanda per tecnologie in grado di sostenere l'espansione e l'efficienza.</p>
+                        <div class="flex justify-around items-center">
+                            <div class="text-center">
+                                <div class="text-6xl text-[#003F5C] mb-2" style="font-family: monospace;">🍾</div>
+                                <p class="text-3xl font-bold text-[#366E8A]">20 Milioni</p>
+                                <p class="text-[#415A77]">di bottiglie vendute</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-6xl text-[#003F5C] mb-2" style="font-family: monospace;">💶</div>
+                                <p class="text-3xl font-bold text-[#366E8A]">€500 Milioni</p>
+                                <p class="text-[#415A77]">di ricavi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-[#003F5C] text-center mb-4">Aree di Applicazione AI nel Settore Vinicolo</h3>
+                        <p class="text-sm text-[#415A77] text-center mb-4">L'intelligenza artificiale può rivoluzionare ogni fase della catena del valore, dalla vigna alla vendita, garantendo qualità, sostenibilità e redditività.</p>
+                        <div class="chart-container">
+                            <canvas id="wineApplicationsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="border-t-2 border-[#B3D4E0]">
+
+            <section id="strategy" class="py-8">
+                 <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-[#003F5C] mb-2">Il Nostro Approccio Strategico Unificato</h2>
+                    <p class="max-w-3xl mx-auto text-[#415A77]">Offriamo un modello di servizio flessibile e un supporto completo nell'accesso ai finanziamenti per diventare il partner tecnologico di riferimento in entrambe le aree.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                     <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-[#003F5C] text-center mb-6">Il Nostro Modello di Servizio</h3>
+                        <div class="flex flex-col items-center space-y-1">
+                            <div class="w-full md:w-1/2 bg-[#003F5C] text-white text-center p-3 rounded-t-lg">
+                                <h4 class="font-bold">Partnership Strategica</h4>
+                                <p class="text-xs">Sviluppo custom e consulenza a lungo termine</p>
+                            </div>
+                             <div class="w-full md:w-3/4 bg-[#366E8A] text-white text-center p-3">
+                                <h4 class="font-bold">Progetti Pilota</h4>
+                                 <p class="text-xs">Implementazioni mirate e assistenza bandi</p>
+                            </div>
+                             <div class="w-full bg-[#75A5B6] text-white text-center p-4 rounded-b-lg">
+                                <h4 class="font-bold">Audit e Formazione</h4>
+                                <p class="text-xs">Valutazioni di prontezza e workshop educativi</p>
+                            </div>
+                        </div>
+                         <p class="text-sm text-[#415A77] text-center mt-6">Un approccio piramidale per accompagnare i clienti in ogni fase del loro percorso di adozione dell'AI, dalla consapevolezza iniziale all'innovazione avanzata.</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                         <h3 class="text-xl font-bold text-[#003F5C] text-center mb-4">Incentivi e Finanziamenti Chiave</h3>
+                         <p class="text-sm text-[#415A77] text-center mb-4">La nostra competenza si estende all'aiutare le imprese a cogliere le numerose opportunità di finanziamento a fondo perduto.</p>
+                         <div class="overflow-x-auto">
+                            <table class="min-w-full text-sm text-left text-[#1B263B]">
+                                <thead class="bg-[#B3D4E0] text-[#003F5C]">
+                                    <tr>
+                                        <th class="p-3">Bando</th>
+                                        <th class="p-3">Contributo Massimo</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b border-[#E0E1DD]">
+                                        <td class="p-3 font-semibold">Voucher Digitali 4.0</td>
+                                        <td class="p-3">€10.000 (50%)</td>
+                                    </tr>
+                                    <tr class="border-b border-[#E0E1DD] bg-gray-50">
+                                        <td class="p-3 font-semibold">Transizione Digitale Imprese</td>
+                                        <td class="p-3">€100.000 (50%)</td>
+                                    </tr>
+                                    <tr class="border-b border-[#E0E1DD]">
+                                        <td class="p-3 font-semibold">Tecnologie Strategiche</td>
+                                        <td class="p-3">€8 Milioni (partenariato)</td>
+                                    </tr>
+                                     <tr class="bg-gray-50">
+                                        <td class="p-3 font-semibold">PNRR Formazione AI</td>
+                                        <td class="p-3">100% dei costi</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer class="text-center mt-16 pt-8 border-t-2 border-[#B3D4E0]">
+             <h3 class="text-2xl font-bold text-[#003F5C]">Pronto a innovare?</h3>
+             <p class="text-[#415A77] mt-2 mb-4">Contattaci per una valutazione preliminare gratuita e scopri come l'AI può trasformare la tua azienda.</p>
+             <a href="mailto:consulenza@nuova-impresa.ai" class="bg-[#003F5C] text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-[#1B263B] transition-colors">Richiedi una Consulenza</a>
+        </footer>
+    </div>
+
+    <script>
+        const FONT_COLOR = '#003F5C';
+        const GRID_COLOR = '#B3D4E0';
+        const PALETTE = {
+            darkBlue: '#003F5C',
+            mediumBlue: '#366E8A',
+            lightBlue: '#75A5B6',
+            veryLightBlue: '#B3D4E0',
+            offWhite: '#F2F9FB'
+        };
+
+        function wrapLabels(label) {
+            const max_width = 16;
+            if (typeof label !== 'string' || label.length <= max_width) {
+                return label;
+            }
+            
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+
+            words.forEach(word => {
+                if ((currentLine + ' ' + word).trim().length > max_width) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            });
+            if (currentLine) {
+                lines.push(currentLine.trim());
+            }
+            return lines;
+        }
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            } else {
+              return label;
+            }
+        };
+
+        const defaultChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        color: FONT_COLOR,
+                        font: {
+                           family: "'Inter', sans-serif"
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    backgroundColor: 'rgba(0, 63, 92, 0.9)',
+                    titleFont: {
+                        size: 14,
+                        family: "'Inter', sans-serif"
+                    },
+                    bodyFont: {
+                        size: 12,
+                         family: "'Inter', sans-serif"
+                    }
+                }
+            }
+        };
+
+        const digitalMaturityCtx = document.getElementById('digitalMaturityChart');
+        if (digitalMaturityCtx) {
+            new Chart(digitalMaturityCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Insoddisfatto o Inconsapevole', 'Soddisfatto'],
+                    datasets: [{
+                        label: 'Maturità Digitale',
+                        data: [71, 29],
+                        backgroundColor: [
+                            PALETTE.mediumBlue,
+                            PALETTE.veryLightBlue
+                        ],
+                        borderColor: PALETTE.offWhite,
+                        borderWidth: 4,
+                        hoverOffset: 8
+                    }]
+                },
+                options: { ...defaultChartOptions }
+            });
+        }
+
+        const keySectorsCtx = document.getElementById('keySectorsChart');
+        if (keySectorsCtx) {
+            new Chart(keySectorsCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Manifatturiero (Metalmeccanico)', 'Energia (Idroelettrico, Fotovoltaico)', 'Turismo', 'Agricoltura & Servizi'].map(wrapLabels),
+                    datasets: [{
+                        label: 'Potenziale di Impatto AI',
+                        data: [95, 85, 70, 65],
+                        backgroundColor: [
+                           PALETTE.darkBlue,
+                           PALETTE.mediumBlue,
+                           PALETTE.lightBlue,
+                           PALETTE.veryLightBlue
+                        ],
+                        borderRadius: 5
+                    }]
+                },
+                options: { 
+                    ...defaultChartOptions,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: GRID_COLOR },
+                            ticks: { color: FONT_COLOR }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: FONT_COLOR }
+                        }
+                    },
+                     plugins: {
+                        legend: { display: false },
+                        tooltip: { ...defaultChartOptions.plugins.tooltip }
+                    }
+                }
+            });
+        }
+        
+        const wineApplicationsCtx = document.getElementById('wineApplicationsChart');
+        if (wineApplicationsCtx) {
+            new Chart(wineApplicationsCtx, {
+                type: 'radar',
+                data: {
+                    labels: ['Viticoltura di Precisione', 'Ottimizzazione Produzione', 'Marketing & Vendite', 'Protezione del Marchio', 'Sostenibilità (ESG)'].map(wrapLabels),
+                    datasets: [{
+                        label: 'Livello di Opportunità',
+                        data: [90, 85, 80, 88, 92],
+                        fill: true,
+                        backgroundColor: 'rgba(54, 110, 138, 0.2)',
+                        borderColor: PALETTE.mediumBlue,
+                        pointBackgroundColor: PALETTE.mediumBlue,
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: PALETTE.mediumBlue
+                    }]
+                },
+                options: { 
+                     ...defaultChartOptions,
+                     scales: {
+                        r: {
+                            angleLines: { color: GRID_COLOR },
+                            grid: { color: GRID_COLOR },
+                            pointLabels: { 
+                                color: FONT_COLOR,
+                                font: {
+                                    size: 11
+                                }
+                            },
+                            ticks: {
+                                backdropColor: 'rgba(242, 249, 251, 0.7)',
+                                color: FONT_COLOR,
+                            }
+                        }
+                     },
+                     plugins: {
+                        legend: { display: false },
+                        tooltip: { ...defaultChartOptions.plugins.tooltip }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
